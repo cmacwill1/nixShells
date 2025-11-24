@@ -1,5 +1,5 @@
 {
-  description = "Provides jupyter notebooks (with vim extension) for python dev shells";
+  description = "Provides jupyter notebooks (with vim extension) for python dev shells. Note that this is also necessary for other kernels to be used in magma-nvim";
 
   inputs = {
     pythonCore.url = "github:cmacwill1/nixShells?dir=pythonShells/pythonCore";
@@ -41,6 +41,17 @@
       jaraco-context
       ipykernel
       ipython
+
+      #for magma-nvim
+      pynvim
+      jupyter-client
+      ueberzug
+      pillow
+      cairosvg
+      pnglatex
+      plotly
+      kaleido
+      pyperclip
     ];
   };
 }
