@@ -21,9 +21,6 @@
       tabulate # tables
       matplotlib # plot & graphs
       seaborn # heat maps, time series, violin plot
-      pygame
-      pyglet
-      vtk
     ];
   };
 }
